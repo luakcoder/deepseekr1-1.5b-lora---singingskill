@@ -3,7 +3,7 @@ from data_pre import samples
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM , AutoModelForMaskedLM,AutoModelForCausalLM
 import torch
 model_name = "deepseekr1-1.5b"
-model_path = r"E:\llm\r1-1.5b"#模型路径
+model_path = r"E:\llm\r1-1.5b"#模型路径(换成自己存放模型的路径)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 #1.
 # model = AutoModelForCausalLM.from_pretrained(
