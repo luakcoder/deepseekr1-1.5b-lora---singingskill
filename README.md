@@ -6,5 +6,5 @@
 
 把main.py运行即可
 
-然后运行inference.py
+然后运行inference.py  进行模型推理
 
